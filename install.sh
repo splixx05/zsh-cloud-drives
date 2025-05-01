@@ -21,7 +21,7 @@ echo "🚀 Starting installation of $PLUGIN_NAME..."
 # Copy plugin folder if not already present
 if [[ ! -d "$TARGET/$PLUGIN_NAME" ]]; then
   echo "📁 Copying plugin to $TARGET/$PLUGIN_NAME ..."
-  mkdir -p "$TARGET"
+  mkdir -p "$TARGET/$PLUGIN_NAME"
   cp -r . "$TARGET/$PLUGIN_NAME"
 else
   echo "✅ Plugin already exists at $TARGET/$PLUGIN_NAME"

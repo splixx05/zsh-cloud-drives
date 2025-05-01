@@ -1,4 +1,4 @@
-# zsh-cloud-drives 🐧📦
+# Copy, manage and organize cloud files with yazi 🐧📦
 
 This plugin automates the upload/download process of your favorite cloud service and also offers a mounting function.
 This allows you to download data (backup), upload data (save it to the cloud), or mount your cloud as a network folder.
@@ -26,7 +26,7 @@ By default, it is installed via Oh-My-Zsh, but the scripts can also be installed
 1. Clone or copy the script:
 
    ```bash
-   git clone https://github.com/splixx05/zsh-cloud-drives.git "${ZSH:-$HOME/.oh-my-zsh}/custom/plugins"
+   git clone https://github.com/splixx05/zsh-cloud-drives.git "${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives"
    ```
 
 2. Activate the plugin in your /.zshrc under "plugins" like so:
