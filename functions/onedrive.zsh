@@ -1,11 +1,12 @@
-SRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/odsrc"
+
+OSRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/odsrc"
 
 function :cp-onedrive ()
 {
  if [[ -n $TMUX ]]; then
-   tmux new-window -n phone "$SRC/odcp.zsh"
+   tmux new-window -n onedrive "$OSRC/odcp.zsh"
  else
-$SRC/odcp.zsh
+$OSRC/odcp.zsh
  fi
 }
 
@@ -13,9 +14,9 @@ $SRC/odcp.zsh
 function :mnt-onedrive ()
 {
  if [[ -n $TMUX ]]; then
-   tmux new-window -n usb "$SRC/odmnt.zsh"
+   tmux new-window -n onedrive "$OSRC/odmnt.zsh"
  else
-$SRC/odmnt.zsh
+$OSRC/odmnt.zsh
  fi
 }
 
@@ -23,8 +24,8 @@ $SRC/odmnt.zsh
 function :up-onedrive ()
 {
  if [[ -n $TMUX ]]; then
-   tmux new-window -n usb "$SRC/odup.zsh"
+   tmux new-window -n onedrive "$OSRC/odup.zsh"
  else
-$SRC/odup.zsh
+$OSRC/odup.zsh
  fi
 }

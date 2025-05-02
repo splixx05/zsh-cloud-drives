@@ -1,12 +1,12 @@
 
-SRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/gdsrc"
+GSRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/gdsrc"
 
 function :cp-gdrive ()
 {
  if [[ -n $TMUX ]]; then
-   tmux new-window -n phone "$SRC/gdcp.zsh"
+   tmux new-window -n google "$GSRC/gdcp.zsh"
  else
-$SRC/gdcp.zsh
+"$GSRC/gdcp.zsh"
  fi
 }
 
@@ -14,9 +14,9 @@ $SRC/gdcp.zsh
 function :mnt-gdrive ()
 {
  if [[ -n $TMUX ]]; then
-   tmux new-window -n usb "$SRC/gdmnt.zsh"
+   tmux new-window -n google "$GSRC/gdmnt.zsh"
  else
-$SRC/gdmnt.zsh
+$GSRC/gdmnt.zsh
  fi
 }
 
@@ -25,8 +25,8 @@ $SRC/gdmnt.zsh
 function :up-gdrive ()
 {
  if [[ -n $TMUX ]]; then
-   tmux new-window -n usb "$SRC/gdup.zsh"
+   tmux new-window -n google "$GSRC/gdup.zsh"
  else
-$SRC/gdup.zsh
+$GSRC/gdup.zsh
  fi
 }
