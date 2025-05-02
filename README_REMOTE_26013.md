@@ -1,8 +1,9 @@
 # zsh-cloud-drives 🐧📦
 
-This plugin automates the upload/download process of your favorite cloud service and also offers a mounting function.
-This allows you to download data (backup), upload data (save it to the cloud), or mount your cloud as a network folder.
-By default, it is installed via Oh-My-Zsh, but the scripts can also be installed individually under /usr/bin or (recommended) /usr/local/bin.
+This plugin automates the upload/download process of your favorite cloud service and also offers a mounting
+function. This allows you to download data (backup), upload data (save it to the cloud), or mount your cloud
+as a network folder. By default, it is installed via Oh-My-Zsh, but the scripts can also be installed
+individually under /usr/bin or (recommended) /usr/local/bin.
 
 ---
 
@@ -25,16 +26,15 @@ By default, it is installed via Oh-My-Zsh, but the scripts can also be installed
 
 1. Clone or copy the script:
 
-   ```bash
-   git clone https://github.com/splixx05/zsh-cloud-drives.git "${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives"
-   ```
+```bash
+git clone https://github.com/splixx05/zsh-cloud-drives.git "${ZSH:-$HOME/.oh-my-zsh}/custom/plugins"
+```
 
 2. Activate the plugin in your /.zshrc under "plugins" like so:
 
 ```bash
   plugins=(git ... zsh-cloud-drives ...)
 ```
-
 
 3. Usage in terminal:
 
@@ -91,4 +91,5 @@ By default, it is installed via Oh-My-Zsh, but the scripts can also be installed
 source ~/.zshrc
 ```
 
-Optional: If you no longer need the additional software (gum, rclone, noto-fonts-emoji), you can uninstall them using your package manager.
+Optional: If you no longer need the additional software (gum, rclone, noto-fonts-emoji), you can uninstall
+them using your package manager.

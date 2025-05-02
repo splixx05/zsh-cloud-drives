@@ -26,7 +26,7 @@ By default, it is installed via Oh-My-Zsh, but the scripts can also be installed
 1. Clone or copy the script:
 
    ```bash
-   git clone https://github.com/splixx05/zsh-cloud-drives.git "${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives"
+   git clone https://github.com/splixx05/zsh-cloud-drives.git "${ZSH:-$HOME/.oh-my-zsh}/custom/plugins"
    ```
 
 2. Activate the plugin in your /.zshrc under "plugins" like so:
@@ -35,6 +35,11 @@ By default, it is installed via Oh-My-Zsh, but the scripts can also be installed
   plugins=(git ... zsh-cloud-drives ...)
 ```
 
+or run the installation script from anywhere:
+
+```bash
+./install.sh
+```
 
 3. Usage in terminal:
 
