@@ -36,12 +36,6 @@ git clone https://github.com/splixx05/zsh-cloud-drives.git "${ZSH:-$HOME/.oh-my-
   plugins=(git ... zsh-cloud-drives ...)
 ```
 
-or run the installation script from anywhere:
-
-```bash
-./install.sh
-```
-
 3. Usage in terminal:
 
 **For Google type this**
