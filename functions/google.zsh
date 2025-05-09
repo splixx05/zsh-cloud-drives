@@ -1,7 +1,7 @@
 
 GSRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/gdsrc"
 
-function :cp-gdrive ()
+function cp-gdrive ()
 {
  if [[ -n $TMUX ]]; then
    tmux new-window -n google "$GSRC/gdcp.zsh"
@@ -11,7 +11,7 @@ function :cp-gdrive ()
 }
 
 
-function :mnt-gdrive ()
+function mnt-gdrive ()
 {
  if [[ -n $TMUX ]]; then
    tmux new-window -n google "$GSRC/gdmnt.zsh"
@@ -22,7 +22,7 @@ $GSRC/gdmnt.zsh
 
 
 
-function :up-gdrive ()
+function up-gdrive ()
 {
  if [[ -n $TMUX ]]; then
    tmux new-window -n google "$GSRC/gdup.zsh"

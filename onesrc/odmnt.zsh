@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 📁 Default mount point
-DEFAULT="$HOME/Onedrive"
+DEFAULT="$HOME/ex/Onedrive"
 
 # ✅ Check if gum is installed
 if ! command -v gum &> /dev/null; then

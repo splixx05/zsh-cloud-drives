@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 📁 Default mount point
-DEFAULT="$HOME/Google-Drive"
+DEFAULT="$HOME/ex/GDrive"
 
 # ✅ Check if gum is installed
 if ! command -v gum &> /dev/null; then

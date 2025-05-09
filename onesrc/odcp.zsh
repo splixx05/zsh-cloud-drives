@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 📁 Default backup directory
-DEFAULT="$HOME/backup/Onedrive"
+DEFAULT="$HOME/Backup/Onedrive"
 
 # ✅ Check if gum is installed
 if ! command -v gum &> /dev/null; then

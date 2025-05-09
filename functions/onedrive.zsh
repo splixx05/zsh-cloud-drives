@@ -1,7 +1,7 @@
 
 OSRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/odsrc"
 
-function :cp-onedrive ()
+function cp-onedrive ()
 {
  if [[ -n $TMUX ]]; then
    tmux new-window -n onedrive "$OSRC/odcp.zsh"
@@ -11,7 +11,7 @@ $OSRC/odcp.zsh
 }
 
 
-function :mnt-onedrive ()
+function mnt-onedrive ()
 {
  if [[ -n $TMUX ]]; then
    tmux new-window -n onedrive "$OSRC/odmnt.zsh"
@@ -21,7 +21,7 @@ $OSRC/odmnt.zsh
 }
 
 
-function :up-onedrive ()
+function up-onedrive ()
 {
  if [[ -n $TMUX ]]; then
    tmux new-window -n onedrive "$OSRC/odup.zsh"
