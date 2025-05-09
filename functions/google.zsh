@@ -6,7 +6,7 @@ function cp-gdrive ()
  if [[ -n $TMUX ]]; then
    tmux new-window -n google "$GSRC/gdcp.zsh"
  else
-"$GSRC/gdcp.zsh"
+$GSRC/gdcp.zsh
  fi
 }
 
