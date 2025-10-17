@@ -1,5 +1,5 @@
 
-OSRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/odsrc"
+OSRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/onesrc"
 
 function cp-onedrive ()
 {
