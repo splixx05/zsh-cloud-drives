@@ -5,6 +5,9 @@ function. This allows you to download data (backup), upload data (save it to the
 as a network folder. By default, it is installed via Oh-My-Zsh, but the scripts can also be installed
 individually under /usr/bin or (recommended) /usr/local/bin.
 
+> Note:
+> This repository is currently not inactive. It is neither maintained nor further developed. Requests will not be processed. Ideas can be submitted, but a timely response should not be expected. Thank you for your understanding.
+
 ---
 
 ## 🔧 Features
