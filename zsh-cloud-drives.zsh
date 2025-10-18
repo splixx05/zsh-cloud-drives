@@ -1,8 +1,8 @@
 #!/bin/sh
 
-FUNCTION_SRC="${ZSH:-$HOME/.oh-my-zsh}/custom/plugins/zsh-cloud-drives/functions"
+FUNCTION="${ZSH:-$HOME/.zsh}/plugins/local/zsh-cloud-drives/functions"
 
 # Load functions
-for file in $FUNCTION_SRC/*.zsh; do
+for file in $FUNCTION/*.zsh; do
   [[ -f "$file" ]] && source "$file"
 done
