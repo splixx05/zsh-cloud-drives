@@ -41,7 +41,7 @@ function cp-onedrive() {
   if [[ -n $TMUX ]]; then
     tmux new-window -n onedrive "$odcp_script"
   else
-    $OSRC/odcp.zsh
+"$odcp_script"
   fi
 }
 
