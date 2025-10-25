@@ -42,10 +42,11 @@ mkdir -p "$dir"
 # 🚀 Start mounting with rclone
 gum spin --title "🚀 Mounting Google Drive..." -- rclone mount gdrive:/ "$dir" &
 
+# ⏳ Optional: show how to unmount
+# gum style --foreground 245 --italic --margin "0 0" \
+#   "💡 Press Ctrl+C in this terminal or kill the background process to unmount."
+
 # 🟢 Done message
 gum style --foreground 212 --border normal --padding "1 2" --margin "1 0" \
   -- "✅ Google Drive mounted successfully to: $dir"
 
-# ⏳ Optional: show how to unmount
-gum style --foreground 245 --italic --margin "0 0" \
-  "💡 Press Ctrl+C in this terminal or kill the background process to unmount."
